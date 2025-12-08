@@ -15,8 +15,8 @@
 
     <!--Scripts-->
 
-  <script type="module" crossorigin src="https://Alex7i7o.github.io/Pokemon-TCG-Game/assets/index-CqDMmlVd.js"></script>
-  <link rel="stylesheet" crossorigin href="https://Alex7i7o.github.io/Pokemon-TCG-Game/assets/index-0w4ZmSrr.css">
+  <script type="module" crossorigin src="https://Alex7i7o.github.io/Pokemon-TCG-Game/assets/index-Cz1-Qg8h.js"></script>
+  <link rel="stylesheet" crossorigin href="https://Alex7i7o.github.io/Pokemon-TCG-Game/assets/index-B6Z7swrQ.css">
 </head>
 
 <!-- Header de nuestra web -->
@@ -24,16 +24,19 @@
   <a href="index.html"> <span class="icon-logo"></span> </a> 
   </div>
   <header>
-    <nav> <!-- Menu con estructura .sobre nosotros .store . -->
+    <nav> <!-- Menu -->
       <ul>
         <li>
-          <a href="#" class="active">Peleas</a>
+          <button class="active" data-section="home">Home</button>
         </li>
         <li>
-          <a href="#">Menu</a>
+          <button data-section="Peleas">Peleas</button>
         </li>
         <li>
-          <a href="#">Album</a>
+          <button data-section="Album">Album</button>
+        </li>
+        <li>
+          <button data-section="Menu">Menu</button>
         </li>
       </ul>
      </nav>
@@ -49,11 +52,28 @@
         <img src="https://images.wikidexcdn.net/mwuploads/wikidex/thumb/0/0f/latest/20170920013613/Paquete_de_mejora_%28Base_Set_TCG%29_Blastoise.png/178px-Paquete_de_mejora_%28Base_Set_TCG%29_Blastoise.png" alt="Set">
         <button id="abrir-sobre">Abrir</button>
         
-        <div id="set-display-container"></div>
     </div>
 
     <p>Mis cartas - 0</p>
+
     
+    <!-- ASIDE -->
+    <aside data-page="Menu" class="">
+      <div class="fondo-blanco"></div>
+
+      <div class="aside">
+        <div class="user">
+        <input type="text" placeholder="USER">
+        <a href="#">Iniciar Sesion</a>
+        </div>
+        <div class="alex">
+          <p >Creado por Alex Agüero</p>
+        </div>
+      </div>
+
+      
+      
+    </aside>
 
 
 </body>
