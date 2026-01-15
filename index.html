@@ -15,8 +15,8 @@
 
     <!--Scripts-->
 
-  <script type="module" crossorigin src="https://Alex7i7o.github.io/Pokemon-TCG-Game/assets/index-BxFU6LNV.js"></script>
-  <link rel="stylesheet" crossorigin href="https://Alex7i7o.github.io/Pokemon-TCG-Game/assets/index-BHLjTuug.css">
+  <script type="module" crossorigin src="https://Alex7i7o.github.io/Pokemon-TCG-Game/assets/index-H8jTm1PQ.js"></script>
+  <link rel="stylesheet" crossorigin href="https://Alex7i7o.github.io/Pokemon-TCG-Game/assets/index-Bly4DbmJ.css">
 </head>
 
 <!-- Header de nuestra web -->
@@ -42,8 +42,8 @@
      </nav>
   </header>
 
-<body>
-  <section data-page="Home" class="home">
+<body data-view="Home" id="body">
+  <section data-page="Home" class="home active">
     <div class="fondo"></div>
 
     <h1>TCG Game</h1>
@@ -60,7 +60,13 @@
   </section>
 
     <!-- Album -->
-     <section data-page="Album" class="album"></section>
+     <section data-page="Album" id="album">
+      <div class="fondo-album">
+        <h1>Album</h1>
+        <p class="nCartas">Mis cartas - 0</p>
+      </div>
+      <div class="album"></div>
+     </section>
     
     <!-- ASIDE -->
     <aside data-page="Menu" class="">
